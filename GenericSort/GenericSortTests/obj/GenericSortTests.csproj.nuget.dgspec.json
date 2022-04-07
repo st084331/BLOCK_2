@@ -1,0 +1,134 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/akabynda/RiderProjects/GenericSort/GenericSortTests/GenericSortTests.csproj": {}
+  },
+  "projects": {
+    "/Users/akabynda/RiderProjects/GenericSort/GenericSort/GenericSort.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/akabynda/RiderProjects/GenericSort/GenericSort/GenericSort.csproj",
+        "projectName": "GenericSort",
+        "projectPath": "/Users/akabynda/RiderProjects/GenericSort/GenericSort/GenericSort.csproj",
+        "packagesPath": "/Users/akabynda/.nuget/packages/",
+        "outputPath": "/Users/akabynda/RiderProjects/GenericSort/GenericSort/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/akabynda/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/akabynda/RiderProjects/GenericSort/GenericSortTests/GenericSortTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/akabynda/RiderProjects/GenericSort/GenericSortTests/GenericSortTests.csproj",
+        "projectName": "GenericSortTests",
+        "projectPath": "/Users/akabynda/RiderProjects/GenericSort/GenericSortTests/GenericSortTests.csproj",
+        "packagesPath": "/Users/akabynda/.nuget/packages/",
+        "outputPath": "/Users/akabynda/RiderProjects/GenericSort/GenericSortTests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/akabynda/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/akabynda/RiderProjects/GenericSort/GenericSort/GenericSort.csproj": {
+                "projectPath": "/Users/akabynda/RiderProjects/GenericSort/GenericSort/GenericSort.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+GetDataTest
+1
+GetNextTest
+1
+GetPrevTest
+1
+SetNextTest
+1 2
+SetPrevTest
+1 2
+SetDataTest
+1
+ArrayToDllTest
+1 2 3 4 5 6 7 8 9
+GetNodeTest
+1 2 3 4 5 6 7 8 9
+AddLastByDataTest
+1
+AddFirstByDataTest
+5
+AddAfterByDataTest
+0 6
+AddBeforeByDataTest
+1 8
+ClearTest
+1 2 3 4 5 6 7 8 9
+ContainsTest
+1 2 3 4 5 6 7 8 9
+FindTest
+4 3
+1 2 3 4 4 4 4 8 9
+FindLastTest
+4 6
+1 2 3 4 4 4 4 8 9
+EqualsTest
+false
+1 2 3 4 5 6 7 8 9
+1 2 3 4 5 6 7 8
+RemoveNodeByDataTest
+3
+1 2 3 4 5 6 7 8
+RemoveFirstTest
+1 2 3 4 5 6 7 8
+RemoveLastTest
+1 2 3 4 5 6 7 8
+RemoveLastTestForOneElement
+1
+RemoveFirstTestForOneElement
+1
+AnyTest
+1 2 3
+AnyFuncTest
+1 2 3
+CountTest
+1 2 3 4
+ElementAtTest
+1
+1 2 3 4 5
+ElementAtOrDefaultTest
+1
+1 2 3 4 5
+LastTest
+1 2 3 4 5
+FirstTest
+1 2 3 4 5
+LastOrDefaultTest
+1 2 3 4 5
+FirstOrDefaultTest
+1 2 3 4 5
+MaxTest
+50
+1 2 3 4 50
+MinTest
+2
+10 2 30 40 50
+ReverseTest
+1 2 3
+3 2 1

@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSort", "GenericSort\GenericSort.csproj", "{99191C4F-3B60-4EEB-A2EB-D88ACD6E7A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericSortTests", "GenericSortTests\GenericSortTests.csproj", "{E539D4D2-277F-4490-9E55-EB65E85DA2EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99191C4F-3B60-4EEB-A2EB-D88ACD6E7A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99191C4F-3B60-4EEB-A2EB-D88ACD6E7A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99191C4F-3B60-4EEB-A2EB-D88ACD6E7A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99191C4F-3B60-4EEB-A2EB-D88ACD6E7A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E539D4D2-277F-4490-9E55-EB65E85DA2EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E539D4D2-277F-4490-9E55-EB65E85DA2EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E539D4D2-277F-4490-9E55-EB65E85DA2EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E539D4D2-277F-4490-9E55-EB65E85DA2EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

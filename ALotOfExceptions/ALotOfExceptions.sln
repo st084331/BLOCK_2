@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALotOfExceptions", "ALotOfExceptions\ALotOfExceptions.csproj", "{008EE97E-3ADE-4031-BA98-A6EBF65A4D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALotOfExceptionsTests", "ALotOfExceptionsTests\ALotOfExceptionsTests.csproj", "{EEE7780D-6929-4C03-A741-8C8BAE44BFB7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{008EE97E-3ADE-4031-BA98-A6EBF65A4D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{008EE97E-3ADE-4031-BA98-A6EBF65A4D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{008EE97E-3ADE-4031-BA98-A6EBF65A4D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{008EE97E-3ADE-4031-BA98-A6EBF65A4D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEE7780D-6929-4C03-A741-8C8BAE44BFB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEE7780D-6929-4C03-A741-8C8BAE44BFB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEE7780D-6929-4C03-A741-8C8BAE44BFB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEE7780D-6929-4C03-A741-8C8BAE44BFB7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

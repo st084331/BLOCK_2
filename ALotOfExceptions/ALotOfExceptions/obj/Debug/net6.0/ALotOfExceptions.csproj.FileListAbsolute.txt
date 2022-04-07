@@ -1,0 +1,15 @@
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/bin/Debug/net6.0/ALotOfExceptions
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/bin/Debug/net6.0/ALotOfExceptions.deps.json
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/bin/Debug/net6.0/ALotOfExceptions.runtimeconfig.json
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/bin/Debug/net6.0/ALotOfExceptions.dll
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/bin/Debug/net6.0/ALotOfExceptions.pdb
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/obj/Debug/net6.0/ALotOfExceptions.csproj.AssemblyReference.cache
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/obj/Debug/net6.0/ALotOfExceptions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/obj/Debug/net6.0/ALotOfExceptions.AssemblyInfoInputs.cache
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/obj/Debug/net6.0/ALotOfExceptions.AssemblyInfo.cs
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/obj/Debug/net6.0/ALotOfExceptions.csproj.CoreCompileInputs.cache
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/obj/Debug/net6.0/ALotOfExceptions.dll
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/obj/Debug/net6.0/refint/ALotOfExceptions.dll
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/obj/Debug/net6.0/ALotOfExceptions.pdb
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/obj/Debug/net6.0/ALotOfExceptions.genruntimeconfig.cache
+/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/obj/Debug/net6.0/ref/ALotOfExceptions.dll

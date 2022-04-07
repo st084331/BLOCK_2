@@ -1,0 +1,15 @@
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/bin/Debug/net6.0/GenericSort
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/bin/Debug/net6.0/GenericSort.deps.json
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/bin/Debug/net6.0/GenericSort.runtimeconfig.json
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/bin/Debug/net6.0/GenericSort.dll
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/bin/Debug/net6.0/GenericSort.pdb
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/obj/Debug/net6.0/GenericSort.csproj.AssemblyReference.cache
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/obj/Debug/net6.0/GenericSort.GeneratedMSBuildEditorConfig.editorconfig
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/obj/Debug/net6.0/GenericSort.AssemblyInfoInputs.cache
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/obj/Debug/net6.0/GenericSort.AssemblyInfo.cs
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/obj/Debug/net6.0/GenericSort.csproj.CoreCompileInputs.cache
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/obj/Debug/net6.0/GenericSort.dll
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/obj/Debug/net6.0/refint/GenericSort.dll
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/obj/Debug/net6.0/GenericSort.pdb
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/obj/Debug/net6.0/GenericSort.genruntimeconfig.cache
+/Users/akabynda/RiderProjects/GenericSort/GenericSort/obj/Debug/net6.0/ref/GenericSort.dll
