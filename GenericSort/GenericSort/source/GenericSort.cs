@@ -29,7 +29,7 @@ public static class GenericSort
         return sorted;
     }
 
-    public static IEnumerable<T> GenericBubbleSort<T>(IEnumerable<T> array, Func<T, T, int> compareFunc)
+    public static IEnumerable<T> GenericBubbleSort<T>(IEnumerable<T> array, Func<T, T, int> partialOrderFunc)
     {
         T[] sorted = array.ToArray();
         if (sorted.Length > 1)
@@ -42,7 +42,33 @@ public static class GenericSort
                 {
                     T current = sorted[i];
                     T prev = sorted[i - 1];
-                    if (compareFunc(current, prev) < 0)
+                    if (partialOrderFunc(current, prev) < 0)
+                    {
+                        sorted[i - 1] = current;
+                        sorted[i] = prev;
+                        swapFlag = true;
+                    }
+                }
+            }
+        }
+
+        return sorted;
+    }
+    
+    public static IEnumerable<T> GenericBubbleSort<T>(IEnumerable<T> array, Func<T, T, bool> strictOrderFunc)
+    {
+        T[] sorted = array.ToArray();
+        if (sorted.Length > 1)
+        {
+            bool swapFlag = true;
+            while (swapFlag)
+            {
+                swapFlag = false;
+                for (int i = 1; i < sorted.Length; i++)
+                {
+                    T current = sorted[i];
+                    T prev = sorted[i - 1];
+                    if (strictOrderFunc(current, prev))
                     {
                         sorted[i - 1] = current;
                         sorted[i] = prev;

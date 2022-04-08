@@ -28,26 +28,24 @@ public class ObjectTest
     [Test]
     public void Test4()
     {
-        Assert.AreEqual(GenericBubbleSort(new object[] {1, 5 ,9, 3}, ReverseIntCompare), new object[] {9, 5, 3, 1});
+        Assert.AreEqual(GenericBubbleSort(new object[] {1, 5 ,9, 3}, ReverseIntCompareForSet), new object[] {9, 5, 3, 1});
     }
 
     private class TestClass
     {
     }
 
-    private int ReverseIntCompare(object I1, object I2)
+    private bool ReverseIntCompareForSet(object I1, object I2)
     {
         int i1 = Convert.ToInt32(I1);
         int i2 = Convert.ToInt32(I2);
         if (i1 < i2)
         {
-            return 1;
-        }else if (i1 == i2)
+            return false;
+        }
+        else
         {
-            return 0;
-        }else
-        {
-            return -1;
+            return true;
         }
     }
     
