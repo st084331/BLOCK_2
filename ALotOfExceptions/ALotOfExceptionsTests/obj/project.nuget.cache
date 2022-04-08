@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ER2N1i6zPnpFyFVUp9cWTwIvRpaQLv/1Q1Y5TqwvkGxIZ5rGHfh6mxk23Wz2jHl1Y/oOenIv7WIl8csvJg360w==",
+  "dgSpecHash": "fM+cyK3Po6ey5hv6iwB0Iz3YENjaT/DUFk3hLkaDx9Ys6oNNtte2OGjnTbCR3cDorpgLgnekQtGFTgE/LPJpxA==",
   "success": true,
-  "projectFilePath": "/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptionsTests/ALotOfExceptionsTests.csproj",
+  "projectFilePath": "/Users/akabynda/RiderProjects/BLOCK_2/ALotOfExceptions/ALotOfExceptionsTests/ALotOfExceptionsTests.csproj",
   "expectedPackageFiles": [
     "/Users/akabynda/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
     "/Users/akabynda/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",

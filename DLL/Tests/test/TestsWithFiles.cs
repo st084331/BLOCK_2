@@ -283,6 +283,60 @@ public class TestsWithFiles
         testList.AddFirst(data);
         Assert.AreEqual(data, testList.getFirst().getData());
     }
+    
+    [Test]
+    public void AddLastByNodeTest()
+    {
+        string line;
+        string data = null;
+        StreamReader sr = new StreamReader(WayToTestData);
+        line = sr.ReadLine();
+        while (line != null)
+        {
+            if (line == "AddLastByDataTest")
+            {
+                line = sr.ReadLine();
+                data = line;
+                line = null;
+            }
+            else
+            {
+                line = sr.ReadLine();
+            }
+        }
+        sr.Close();
+        string[] arr = new[] {"1", "2", "3"};
+        DoublyLinkedList<string> testList = new DoublyLinkedList<string>(arr);
+        testList.AddLast(new DoublyLinkedNode<string>(data));
+        Assert.AreEqual(data, testList.getLast().getData());
+    }
+
+    [Test]
+    public void AddFirstByNodeTest()
+    {
+        string line;
+        string data = null;
+        StreamReader sr = new StreamReader(WayToTestData);
+        line = sr.ReadLine();
+        while (line != null)
+        {
+            if (line == "AddFirstByDataTest")
+            {
+                line = sr.ReadLine();
+                data = line;
+                line = null;
+            }
+            else
+            {
+                line = sr.ReadLine();
+            }
+        }
+        sr.Close();
+        string[] arr = new[] {"1", "2", "3"};
+        DoublyLinkedList<string> testList = new DoublyLinkedList<string>(arr);
+        testList.AddFirst(new DoublyLinkedNode<string>(data));
+        Assert.AreEqual(data, testList.getFirst().getData());
+    }
 
     [Test]
     public void AddAfterByDataTest()
@@ -335,6 +389,60 @@ public class TestsWithFiles
         string[] arr = new[] {"1", "2", "3"};
         DoublyLinkedList<string> testList = new DoublyLinkedList<string>(arr);
         testList.AddBefore(testList.getNode(Convert.ToInt32(data[0])), data[1]);
+        Assert.AreEqual(data[1], testList.getNode(Convert.ToInt32(data[0])).getData());
+    }
+    
+    [Test]
+    public void AddAfterByNodeTest()
+    {
+        string line;
+        string[] data = new string[] { };
+        StreamReader sr = new StreamReader(WayToTestData);
+        line = sr.ReadLine();
+        while (line != null)
+        {
+            if (line == "AddAfterByDataTest")
+            {
+                line = sr.ReadLine();
+                data = line.Split(' ');
+                line = null;
+            }
+            else
+            {
+                line = sr.ReadLine();
+            }
+        }
+        sr.Close();
+        string[] arr = new[] {"1", "2", "3"};
+        DoublyLinkedList<string> testList = new DoublyLinkedList<string>(arr);
+        testList.AddAfter(testList.getNode(Convert.ToInt32(data[0])), new DoublyLinkedNode<string>(data[1]));
+        Assert.AreEqual(data[1], testList.getNode(Convert.ToInt32(data[0])).getNext().getData());
+    }
+
+    [Test]
+    public void AddBeforeByNodeTest()
+    {
+        string line;
+        string[] data = new string[2];
+        StreamReader sr = new StreamReader(WayToTestData);
+        line = sr.ReadLine();
+        while (line != null)
+        {
+            if (line == "AddBeforeByDataTest")
+            {
+                line = sr.ReadLine();
+                data = line.Split(' ');
+                line = null;
+            }
+            else
+            {
+                line = sr.ReadLine();
+            }
+        }
+        sr.Close();
+        string[] arr = new[] {"1", "2", "3"};
+        DoublyLinkedList<string> testList = new DoublyLinkedList<string>(arr);
+        testList.AddBefore(testList.getNode(Convert.ToInt32(data[0])), new DoublyLinkedNode<string>(data[1]));
         Assert.AreEqual(data[1], testList.getNode(Convert.ToInt32(data[0])).getData());
     }
 
@@ -525,6 +633,37 @@ public class TestsWithFiles
         DoublyLinkedList<string> testList = new DoublyLinkedList<string>(data);
         DoublyLinkedList<string> copyList = new DoublyLinkedList<string>(data);
         testList.RemoveNode(input);
+        Assert.AreEqual(testList.Equals(copyList), false);
+    }
+    
+    [Test]
+    public void RemoveNodeByNodeTest()
+    {
+        string line;
+        string input = null;
+        string[] data = new string[] { };
+        StreamReader sr = new StreamReader(WayToTestData);
+        line = sr.ReadLine();
+        while (line != null)
+        {
+            if (line == "RemoveNodeByDataTest")
+            {
+                line = sr.ReadLine();
+                input = line;
+                line = sr.ReadLine();
+                data = line.Split(' ');
+                line = null;
+            }
+            else
+            {
+                line = sr.ReadLine();
+            }
+        }
+
+        sr.Close();
+        DoublyLinkedList<string> testList = new DoublyLinkedList<string>(data);
+        DoublyLinkedList<string> copyList = new DoublyLinkedList<string>(data);
+        testList.RemoveNode(testList.Find(input));
         Assert.AreEqual(testList.Equals(copyList), false);
     }
     

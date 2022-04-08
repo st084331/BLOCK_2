@@ -3876,11 +3876,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/akabynda/RiderProjects/DLL/Tests/Tests.csproj",
+      "projectUniqueName": "/Users/akabynda/RiderProjects/BLOCK_2/DLL/Tests/Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "/Users/akabynda/RiderProjects/DLL/Tests/Tests.csproj",
+      "projectPath": "/Users/akabynda/RiderProjects/BLOCK_2/DLL/Tests/Tests.csproj",
       "packagesPath": "/Users/akabynda/.nuget/packages/",
-      "outputPath": "/Users/akabynda/RiderProjects/DLL/Tests/obj/",
+      "outputPath": "/Users/akabynda/RiderProjects/BLOCK_2/DLL/Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/akabynda/.nuget/NuGet/NuGet.Config"
@@ -3895,8 +3895,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/Users/akabynda/RiderProjects/DLL/DLL/DLL.csproj": {
-              "projectPath": "/Users/akabynda/RiderProjects/DLL/DLL/DLL.csproj"
+            "/Users/akabynda/RiderProjects/BLOCK_2/DLL/DLL/DLL.csproj": {
+              "projectPath": "/Users/akabynda/RiderProjects/BLOCK_2/DLL/DLL/DLL.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k39Abf/jlKRbDWNHVI6atah+opmnjZApOFMdDOOUB+tSuh7P1XLH9cjw8e2SlZ+uMvqw0S7lZuc66INmvoY6jA==",
+  "dgSpecHash": "qCCF/LHamxjyZlWtsESB/0aTR79hQaMYnS8wHJZlEHFV3ZIL0uDCWUhlCJM8jLDFGVY8OjNOr5+OVchlV5YSyQ==",
   "success": true,
-  "projectFilePath": "/Users/akabynda/RiderProjects/DLL/Tests/Tests.csproj",
+  "projectFilePath": "/Users/akabynda/RiderProjects/BLOCK_2/DLL/Tests/Tests.csproj",
   "expectedPackageFiles": [
     "/Users/akabynda/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
     "/Users/akabynda/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",

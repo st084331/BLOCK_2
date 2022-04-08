@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nuPzUtnLwQ/utjsvluARQtu2HfJhhW3g29c6sLjbExafnNb8dHTMX6mh1ZdxqYPTg5kNn1LiO1advdRRCV9k+w==",
+  "dgSpecHash": "VSp1cyjg+olcfQA+JzsA1It4JQCqtg/E8YI67nkEbpucDetuyEDnIEeiDJB9eDqYUSALMhrWgpIn3gmT5cOT6Q==",
   "success": true,
-  "projectFilePath": "/Users/akabynda/RiderProjects/GenericSort/GenericSortTests/GenericSortTests.csproj",
+  "projectFilePath": "/Users/akabynda/RiderProjects/BLOCK_2/GenericSort/GenericSortTests/GenericSortTests.csproj",
   "expectedPackageFiles": [
     "/Users/akabynda/.nuget/packages/coverlet.collector/3.1.0/coverlet.collector.3.1.0.nupkg.sha512",
     "/Users/akabynda/.nuget/packages/microsoft.codecoverage/16.11.0/microsoft.codecoverage.16.11.0.nupkg.sha512",

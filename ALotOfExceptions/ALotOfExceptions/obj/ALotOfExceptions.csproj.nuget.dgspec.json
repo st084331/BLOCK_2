@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/ALotOfExceptions.csproj": {}
+    "/Users/akabynda/RiderProjects/BLOCK_2/ALotOfExceptions/ALotOfExceptions/ALotOfExceptions.csproj": {}
   },
   "projects": {
-    "/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/ALotOfExceptions.csproj": {
+    "/Users/akabynda/RiderProjects/BLOCK_2/ALotOfExceptions/ALotOfExceptions/ALotOfExceptions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/ALotOfExceptions.csproj",
+        "projectUniqueName": "/Users/akabynda/RiderProjects/BLOCK_2/ALotOfExceptions/ALotOfExceptions/ALotOfExceptions.csproj",
         "projectName": "ALotOfExceptions",
-        "projectPath": "/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/ALotOfExceptions.csproj",
+        "projectPath": "/Users/akabynda/RiderProjects/BLOCK_2/ALotOfExceptions/ALotOfExceptions/ALotOfExceptions.csproj",
         "packagesPath": "/Users/akabynda/.nuget/packages/",
-        "outputPath": "/Users/akabynda/RiderProjects/ALotOfExceptions/ALotOfExceptions/obj/",
+        "outputPath": "/Users/akabynda/RiderProjects/BLOCK_2/ALotOfExceptions/ALotOfExceptions/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/akabynda/.nuget/NuGet/NuGet.Config"
